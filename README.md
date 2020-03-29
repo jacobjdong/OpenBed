@@ -1,4 +1,4 @@
-This is the final OpenBed native phone application.
+This is the final OpenBed native phone application. In order to set it up, you must do a couple of npm commands.
 
 ## BuilderX uses third party libraries for some of the react-native components such as
 
