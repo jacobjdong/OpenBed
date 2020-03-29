@@ -13,7 +13,7 @@ function MaterialMapView(props) {
       setLongitude(node.coords.longitude);
 
       fetch(
-        "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=" + node.coords.latitude + "," + node.coords.longitude + "&type=hospital&radius=50000&key=AIzaSyAQuXd5BhDT2Lcj3ZmVzouyqcPVu1Gai6I"
+        "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=" + node.coords.latitude + "," + node.coords.longitude + "&type=hospital&radius=50000&key=INSERTMASSIVEAPIKEYHEREWEDONTWANTTOPUSHOURS"
       )
         .then(data => {
           return data.json();
